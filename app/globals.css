@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (min-width: 640px) {
+    html {
+      scroll-padding-top: 5.75rem;
+    }
+  }
+
+  body {
+    @apply bg-cream-50 text-chocolate-800 font-body antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-rose-500 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-rose-500/25 transition-all duration-300 hover:bg-rose-600 hover:shadow-xl hover:shadow-rose-500/30 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .section-heading {
+    @apply font-display text-3xl font-semibold text-chocolate-900 md:text-4xl;
+  }
+
+  .pill-btn {
+    @apply rounded-full border px-4 py-2 text-sm font-medium transition-all;
+  }
+
+  .pill-btn-default {
+    @apply border-cream-200 bg-white text-chocolate-700 hover:border-[#722F37]/40;
+  }
+
+  .pill-btn-selected {
+    background-color: #722F37;
+    border-color: #722F37;
+    color: #ffffff;
+  }
+
+  .design-card {
+    @apply relative w-full rounded-xl border-2 p-4 text-left transition-all;
+  }
+
+  .design-card-default {
+    @apply border-cream-200 bg-white hover:border-[#722F37]/30;
+  }
+
+  .design-card-selected {
+    background-color: #FDF2F4;
+    border-color: #722F37;
+  }
+
+  .design-image-card {
+    @apply relative overflow-hidden rounded-xl border-2 text-left transition-all;
+  }
+
+  .design-image-card-default {
+    @apply border-cream-200 bg-white hover:border-[#722F37]/30;
+  }
+
+  .design-image-card-selected {
+    border-color: #722F37;
+    box-shadow: 0 0 0 1px #722F37;
+  }
+}

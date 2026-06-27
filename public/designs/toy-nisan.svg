@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#FFF5F5"/>
+  <rect x="80" y="60" width="240" height="180" rx="12" fill="#8B0000" opacity="0.1" stroke="#722F37" stroke-width="2"/>
+  <path d="M200 90 C170 90 150 120 150 150 C150 180 170 210 200 210 C230 210 250 180 250 150 C250 120 230 90 200 90" fill="#722F37" opacity="0.25"/>
+  <path d="M200 110 C180 110 165 130 165 150 C165 170 180 190 200 190 C220 190 235 170 235 150 C235 130 220 110 200 110" fill="#722F37" opacity="0.4"/>
+  <text x="200" y="165" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#722F37" font-style="italic">Sevgi</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#3D2E22">Toy &amp; ni_an</text>
+</svg>
